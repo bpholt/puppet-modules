@@ -1,0 +1,4 @@
+2012-11-29 - 1.0.0
+* First release, only supports RHEL/CentOS/Fedora
+* Latest three versions of mongod from 10-gen repo allowed as version inputs
+* UNSET version (default) will install the latest version from 10-gen
