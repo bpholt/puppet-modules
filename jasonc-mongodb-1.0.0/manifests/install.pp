@@ -90,7 +90,7 @@ if $mongodb::params::supported == true {
   } 
   
   else {
-    service { $mongodb::params::config:
+    service { $mongodb::params::svc_name:
       ensure    => $ensure,
       subscribe => [ Package[$svr_name], File[$mongodb::params::config]],
     }
