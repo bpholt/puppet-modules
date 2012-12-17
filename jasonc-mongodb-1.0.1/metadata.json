@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "types": [
 
   ],
@@ -8,17 +8,17 @@
   "source": "git://github.com/jcochard/puppet-modules/mongodb",
   "description": "Install, configure, and manage mongodb from the 10gen repo.",
   "checksums": {
-    "manifests/init.pp": "68f54ef3341cea51e4b4a446398d03a1",
-    "manifests/install.pp": "58dfd90517494a3ecfdd7ad65dd1390e",
     "templates/mongod.conf.redhat.erb": "b583522585b02f3d3a3565e961c4ce37",
-    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
-    "LICENSE.txt": "d32239bcb673463ab874e80d47fae504",
-    "files/10gen.repo": "f420a62f00cbed5fda1aa1686ac371b7",
-    "ChangeLog": "b27f9c0cab17ccf65351f6fcb0d0dc3f",
     "README": "8f9a803036872d6c861c67f40156e641",
-    "tests/init.pp": "ad885d5793ecc8090ad222ceb50af48b",
     "manifests/params.pp": "e1e29f5c5694dff14c706bdeb7915dd2",
-    "Modulefile": "43ff03b19b9f2ca49a5cdc093bc51185"
+    "LICENSE.txt": "d32239bcb673463ab874e80d47fae504",
+    "manifests/install.pp": "5f15052f17ea8ff76ea21fdaf32dcdf8",
+    "manifests/init.pp": "68f54ef3341cea51e4b4a446398d03a1",
+    "tests/init.pp": "ad885d5793ecc8090ad222ceb50af48b",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "Modulefile": "a9e732da206ca2a945f7b09e2e753303",
+    "ChangeLog": "b27f9c0cab17ccf65351f6fcb0d0dc3f",
+    "files/10gen.repo": "f420a62f00cbed5fda1aa1686ac371b7"
   },
   "summary": "MongoDB module",
   "name": "jasonc-mongodb",
