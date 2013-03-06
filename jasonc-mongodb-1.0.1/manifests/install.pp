@@ -17,7 +17,7 @@ class mongodb::install ( $quota       = 'true',
                          $logpath     = '/var/log/mongo/mongod.log',
                          $port        = '27017',
                          $version     = 'UNSET',
-                         $ipv6        = 'false',
+                         $ipv6        = false,
 ) {
   
 include mongodb::params

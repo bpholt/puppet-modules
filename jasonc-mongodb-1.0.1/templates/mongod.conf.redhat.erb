@@ -31,7 +31,7 @@ pidfilepath = /var/run/mongodb/mongod.pid
 #verbose = true
 
 # Enable IPv6 Connections?
-ipv6 = <%= ipv6 %>
+<% if ipv6 %>ipv6 = true<% else %>#ipv6 = true<% end %>
 
 # Inspect all client data for validity on receipt (useful for
 # developing drivers)
