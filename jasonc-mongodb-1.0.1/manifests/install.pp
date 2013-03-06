@@ -18,6 +18,7 @@ class mongodb::install ( $quota       = 'true',
                          $port        = '27017',
                          $version     = 'UNSET',
                          $ipv6        = false,
+                         $auth        = false,
 ) {
   
 include mongodb::params

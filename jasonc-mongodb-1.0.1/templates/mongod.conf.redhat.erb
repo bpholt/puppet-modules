@@ -24,8 +24,7 @@ pidfilepath = /var/run/mongodb/mongod.pid
 #cpu = true
 
 # Turn on/off security.  Off is currently the default
-#noauth = true
-#auth = true
+<% if auth %>auth = true<% else %>#auth = true<% end %>
 
 # Verbose logging output.
 #verbose = true
